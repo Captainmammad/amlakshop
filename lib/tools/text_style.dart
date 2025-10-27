@@ -9,7 +9,8 @@ final textColor1 = TextStyle(
 final textColor2 = TextStyle(
   color: Colors.grey.shade900,
   fontSize: 20,
-  fontWeight: FontWeight.w800,
+  fontWeight: FontWeight.bold,
+  
 );
 final textColor3 = TextStyle(
   color: Colors.grey.shade900,
