@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shop_amlak/screens/bottom_navigation_screen.dart'; // مسیر صحیح فایل رو بنویس
+import 'package:shop_amlak/screens/bottom_navigation_screen.dart';
+import 'package:shop_amlak/screens/first_screen.dart'; // مسیر صحیح فایل رو بنویس
 
 void main() {
   runApp(const MyApp());
@@ -13,10 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Shop Amlak',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const BottomNavigationScreen(), // اینجا مشخص می‌کنی چه صفحه‌ای اول باز بشه
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: const FirstScreen(), // اینجا مشخص می‌کنی چه صفحه‌ای اول باز بشه
     );
   }
 }
